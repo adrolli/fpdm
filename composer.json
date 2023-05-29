@@ -1,6 +1,6 @@
 {
-  "name": "williamgall/fpdm",
-  "description": "PDF form filling using FPDM Class written by FPDF author Olivier",
+  "name": "adrolli/fpdm",
+  "description": "PDF form filling with PHP",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -14,9 +14,14 @@
       "name": "codeshell",
       "role": "Developer",
       "homepage": "https://github.com/williamgall/"
+    },
+    {
+      "name": "Alf Drollinger",
+      "role": "Developer",
+      "homepage": "https://github.com/adrolli/"
     }
   ],
-  "homepage": "https://github.com/williamgall/fpdm",
+  "homepage": "https://github.com/adrolli/fpdm",
   "autoload": {
     "classmap": [
       "src/fpdm.php",
@@ -26,7 +31,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/williamgall/fpdm",
+      "url": "https://github.com/adrolli/fpdm",
       "name": "GitHub"
     }
   ],
@@ -43,7 +48,7 @@
     "FPDF"
   ],
   "support": {
-    "issues": "https://github.com/codeshell/fpdm/issues",
-    "source": "https://github.com/codeshell/fpdm/tree/master"
+    "issues": "https://github.com/adrolli/fpdm/issues",
+    "source": "https://github.com/adrolli/fpdm/tree/master"
   }
 }
